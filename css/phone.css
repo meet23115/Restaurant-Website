@@ -20,12 +20,6 @@
     font-size: 1rem;
 }
 /* Services Section */
-/* .services-section{
-    flex-wrap: wrap;
-}
-.services-section::before{
-    height: 1340px;
-} */
 #services{
     flex-direction: column;
     /* overflow: hidden; */

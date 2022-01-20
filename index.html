@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700;800&family=Bree+Serif&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/gif" href="images/logo.png">
+    <link rel="stylesheet" media="screen and (max-width: 830px)" href="css/phone.css">
     <link rel="stylesheet" href="css\style.css">
     <title>Online food delivery service | MyOnlineMeals.com</title>
 </head>
@@ -58,18 +60,55 @@
         <h1 class="h-primary center">Our Clients</h1>
         <div id="clients">
             <div class="client-item">
+                <img src="images\apple.png" alt="Our Clients">
+            </div>
+            <div class="client-item">
                 <img src="images\skype.png" alt="Our Clients">
             </div>
             <div class="client-item">
                 <img src="images\hp.png" alt="Our Clients">
             </div>
             <div class="client-item">
-                <img src="images\apple.png" alt="Our Clients">
-            </div>
-            <div class="client-item">
                 <img src="images\microsoft.png" alt="Our Clients">
             </div>
         </div>
     </section>
+
+    <section id="contact-section">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number: </label>
+                    <input type="phone" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="city">City: </label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="25" rows="5" placeholder="Enter your message here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeals.com  All rights reserved!
+        </div>
+    </footer>
 </body>
 </html>
